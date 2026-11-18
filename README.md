@@ -1,17 +1,24 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+# ParkingGo – Flutter UI starter
 
-<head>
-    <meta charset="UTF-8">
-    <title>موقعي الأول</title>
-</head>
+## التشغيل
+1. فك ضغط الملف.
+2. افتح مجلد `parkinggo_flutter` في VS Code.
+3. افتح Terminal ونفّذ:
+   ```bash
+   flutter pub get
+   flutter run
+   ```
 
-<body>
+## الواجهات الموجودة
+- Splash: شاشة البداية
+- Login: تسجيل الدخول
+- Home: الرئيسية والإحصائيات
+- Vehicle Entry: تسجيل دخول مركبة
+- Vehicle Exit: إخراج مركبة وحساب الرسوم
+- Vehicles: قائمة المركبات
+- Transactions: سجل المعاملات
+- Reports: التقارير
+- Settings: الإعدادات
+- Profile: الملف الشخصي
 
-    <h1>مرحباً بكم في موقعي</h1>
-
-    <p>هذا أول موقع أقوم بإنشائه باستخدام GitHub.</p>
-
-</body>
-
-</html>
+هذه نسخة واجهات أولية ببيانات تجريبية فقط. لم يتم ربطها بقاعدة بيانات أو تسجيل دخول حقيقي بعد.
